@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <script>
+            Notification.requestPermission().then((result) => {
+                new Notification('My first notification!');
+            });
+            
+        </script>
         <h1>
             Hello!
         </h1>
